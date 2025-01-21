@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    text-decoration: none;
+}
+
+/**/
+body {
+    color: #3c184e;
+}
+
+span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+/*Section banner*/
+.container-banner {
+    background-image: url(assets-img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    padding: 120px 80px 120px 80px;
+}
+
+.section-logo-name-slogan {
+    max-width: 250px;
+}
+
+.logo {
+    width: 30px;
+    margin: 0 5px 0 0;
+}
+
+.name {
+    font-size: 35px;
+    margin: 0 0 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.slogan {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.section-transparentbox {
+    background-color: #ffffffc4;
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px 40px 40px 40px;
+    margin: 70px auto 0 auto;
+    box-shadow: 0px 8px 32px #1f26875e;
+}
+
+.button {
+    background-color: #3c184e;
+    width: 200px;
+    padding: 10px 25px 10px 25px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.linkbutton {
+    color: #ffff;
+}
+
+.buttonsymbol {
+    width: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800px;
+    margin: 0 0 40px 0;
+}
+
+/*The end Section banner*/
+/*Section servises*/
+.container-services {
+    width: 100%;
+    padding: 120px 80px 120px 80px;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 45px 0;
+
+}
+
+.section-list {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.list-services li {
+    list-style-type: square;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.section-imgservices {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    background-position: center;
+}
+
+.img-services {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/*Section servises the and*/
+/*Section stip*/
+.container-strip {
+    padding: 120px 80px 120px 80px;
+    background-color: #3c184e;
+    color: #fff;
+    text-align: center;
+}
+
+.text-strip {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+}
+
+.section-socialmedia {
+    margin: 0 20px 0 20px;
+    width: 50px;
+    height: 50px;
+}
